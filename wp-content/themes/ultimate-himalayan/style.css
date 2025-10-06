@@ -1,0 +1,3118 @@
+/*
+	Theme Name: Ultimate Himalayan Fr
+	Theme URI: http://www.idealaya.com.np
+	Description: Ultimate Himalayan theme French Version
+	Author: Idealaya - www.idealaya.com.np
+	Version: 1.0
+*/
+/*-- slightly modified html5 boilerplate styles --*/
+
+/*=Reset
+---------------------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+/*-- html5 elements --*/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+nav ul {
+	list-style:none;
+}
+blockquote, q {
+	quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content:none;
+}
+a {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+ins {
+	background-color:#ff9;
+	color:#000;
+	text-decoration:none;
+}
+mark {
+	background-color:#ff9;
+	color:#000;
+	font-style:italic;
+	font-weight:bold;
+}
+del {
+	text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+hr {
+	display:block;
+	height:1px;
+	border:0;
+	border-top:1px solid #ccc;
+	margin:1em 0;
+	padding:0;
+}
+input, select {
+	vertical-align:middle;
+}
+/*=Global
+---------------------------------------*/
+body {
+	font:13px/1.231 sans-serif;
+*font-size:small;
+}
+select, input, textarea, button {
+	font:99% sans-serif;
+}
+pre, code, kbd, samp {
+	font-family: monospace, sans-serif;
+}
+body, select, input, textarea {
+	color: #444;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+h1 {
+	font-size:30px;
+}
+h2 {
+	font-size:24px;
+}
+h3 {
+	font-size:18px;
+}
+h4 {
+	font-size:16px;
+}
+h5 {
+	font-size:14px;
+}
+h6 {
+	font-size:12px;
+}
+a:hover, a:active {
+	outline: none;
+}
+a, a:active, a:visited {
+	color: #607890;
+	outline: none;
+}
+a:hover {
+	color: #036;
+}
+
+::-moz-selection {
+background: #555555;
+color:#fff;
+text-shadow: none;
+}
+::selection {
+background:#555555;
+color:#fff;
+text-shadow: none;
+}
+a:link {
+	-webkit-tap-highlight-color: #555555;
+}
+ul, ol {
+	margin-left: 1.8em;
+}
+ol {
+	list-style-type: decimal;
+}
+p {
+	padding:5px 0;
+	margin:0 0 10px 0;
+}
+nav ul, nav li {
+	margin: 0;
+}
+small {
+	font-size: 85%;
+}
+strong, th {
+	font-weight: bold;
+}
+td, td img {
+	vertical-align: top;
+}
+td{
+	line-height:18px;
+	}
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+pre {
+	padding: 15px;
+	white-space: pre;
+	white-space: pre-wrap;
+	white-space: pre-line;
+	word-wrap: break-word;
+}
+.ie7 img {
+	-ms-interpolation-mode: bicubic;
+}
+/*=Normalize forms
+-----------------------------*/
+textarea {
+	overflow: auto;
+}
+.ie6 legend, .ie7 legend {
+	margin-left: -7px;
+}
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+input[type="checkbox"] {
+	vertical-align: bottom;
+}
+.ie7 input[type="checkbox"] {
+	vertical-align: baseline;
+}
+.ie6 input {
+	vertical-align: text-bottom;
+}
+label, input[type=button], input[type=submit], button {
+	cursor: pointer;
+}
+button, input, select, textarea {
+	margin: 0;
+}
+input:valid, textarea:valid {
+}
+input:invalid, textarea:invalid {
+ border-radius: 1px;
+ -moz-box-shadow: 0px 0px 5px red;
+ -webkit-box-shadow: 0px 0px 5px red;
+ box-shadow: 0px 0px 5px red;
+}
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid {
+background-color: #f0dddd;
+}
+button {
+	width: auto;
+	overflow: visible;
+}
+/*=Helper classes
+-----------------------------*/
+.ir {
+	display: block;
+	text-indent: -999em;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	text-align: left;
+	direction: ltr;
+}
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+.visuallyhidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+}
+.invisible {
+	visibility: hidden;
+}
+.col {
+	display:inline;
+	float:left;
+}
+/*-- More semantic clearfix hack --*/
+.group:before, .group:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.group:after {
+	clear: both;
+}
+.group {
+	zoom: 1;
+}
+.clear {
+	clear:both;
+	height:0;
+	width:100%;
+	overflow:hidden;
+}
+/*=Spacing
+-----------------------------*/
+.margin-btm-1 {
+	margin-bottom:10px;
+}
+.margin-btm-2 {
+	margin-bottom:20px;
+}
+/*=Default Wordpress Styles
+---------------------------------------*/
+
+/* Aligns, prev next links */
+.alignleft {
+	float:left;
+}
+.alignright {
+	float:right;
+}
+.aligncenter, div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navigation, .comment-navigation {
+	display: block;
+	clear:both;
+}
+.navigation {
+	margin-top: 40px;
+	padding-bottom: 70px;
+}
+.comment-navigation {
+	margin-top: 15px;
+	padding-bottom: 5px;
+}
+.navigation a, .comment-navigation a {
+}
+.navigation a:hover, .comment-navigation a:hover {
+}
+.attachment a {
+	border:0
+}
+.navigation a img {
+	border-radius:0;
+	border:none
+}
+.navigation-image a {
+	border:none
+}
+/* images */
+p img {
+	padding: 0;
+	max-width: 100%;
+}
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+}
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+}
+.alignright {
+	float: right;
+}
+.alignleft {
+	float: left;
+}
+/* Captions */
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #fafafa;
+	padding-top: 5px;
+	margin: 5px 25px 25px 0px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 10px;
+	line-height: 16px;
+	padding: 4px 4px 5px 0;
+	margin: 0;
+	color:#666;
+}
+/* Various Tags & Classes */
+acronym, abbr, span.caps {
+	cursor: help;
+}
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+}
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	border-left: 5px solid #ddd;
+}
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+}
+.center {
+	text-align: center;
+}
+.hidden {
+	display: none;
+}
+.screen-reader-text {
+	position: absolute;
+	left: -1000em;
+}
+/* Comment Form */
+#commentform input {
+	width: 170px;
+	padding: 4px;
+	border:1px solid #ccc;
+	font-size:14px;
+	font-family:Georgia, Times;
+}
+#commentform {
+	margin: 5px 10px 0 0;
+	padding-bottom:30px;
+}
+#commentform p {
+	margin:0 0 10px 0;
+	font-size: 14px;
+	position:relative;
+}
+#commentform p label {
+	width: 120px;
+	display:block;
+	float:left
+}
+#commentform .required {
+	position:absolute;
+	left:310px;
+	color:red;
+}
+#commentform .comment-notes .required {
+	position:static;
+}
+#commentform textarea {
+	width: 70%;
+	padding: 2px;
+	border:1px solid #ccc;
+	padding: 4px;
+	font-family: Georgia, Times;
+}
+.cancel-comment-reply {
+	display: none;
+}
+#commentform #submit {
+	margin-left: 120px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #aaa;
+	font-weight: bold
+}
+#commentform small, #commentform #submit {
+	color:#333;
+	text-transform: uppercase;
+	font-family: arial;
+}
+#commentform small {
+	font-size:11px;
+	font-weight: bold
+}
+#respond h3 {
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+#commentform .form-allowed-tags {
+	padding-left:120px;
+}
+/*=Layout
+---------------------------------------*/
+.sprite {
+	background-image: url(/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/sprite.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -999em;
+}
+.wrapper {
+	margin:0 auto;
+	width:940px;
+}
+/*=header styles
+---------------------------------------*/
+
+.top-header {
+	background:url(/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/top-header-bg.jpg) no-repeat top center;
+	background-size:cover;
+}
+#logo {
+	display: block;
+	margin:30px 0;
+	float:left;
+}
+.top-content-sec {
+	float:right;
+	width:500px;
+}
+.top-contact-sec {
+	margin:32px 0 31px;
+	text-align:right;
+	float:right;
+}
+.language{
+	display:block;
+	float:left;
+	padding-top:1px;
+	font:12px 'HelveticaWorldRegular';
+	color:#A4A2A2;
+}
+.top-contact-sec > span {
+	display:block;
+}
+.top-contact-sec .tel-no {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	font:18px 'HelveticaWorldBold';
+	color:#fff;
+}
+.top-contact-sec .tel-no .sprite {
+	margin-left:10px;
+	background-position: -15px 3px;
+	height: 25px;
+	width: 10px;
+}
+.top-contact-sec .top-email{
+	padding-bottom:5px;
+	/* border-bottom:1px solid #685110; */
+	margin-right:7px;
+	}
+.top-contact-sec .top-email a {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	font:14px/1 'HelveticaWorldRegular';
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.top-contact-sec .top-email a:hover {
+	color:#9f7770;
+}
+.top-contact-sec .top-email .sprite {
+	background-position: -36px -5px;
+	height: 14px;
+	margin-left: 10px;
+	width: 15px;
+}
+.search-sec{
+	margin-right: 5px;
+		float:right;
+		width: 222px;
+	}
+#searchform {
+	font:12px 'HelveticaWorldRegular';
+	color:#DDDDDD;
+	padding-top:1px;
+	float:left;
+}
+
+#searchform input.sprite {
+	padding:0px;
+	background-position: -69px -7px;
+	height: 11px;
+	margin-right: 14px;
+	width: 14px;
+}
+#searchform input, #searchform a {
+	font:12px 'HelveticaWorldRegular';
+	color:#A4A2A2;
+}
+
+.search12, .search-btn {
+	background-color: transparent;
+	border: medium none;
+	
+}
+.search12 {
+	 border-bottom: 1px solid #685110;
+    margin-top: -2px;
+    padding: 0 9px;
+    width: 70px;
+}
+input.search12:focus {
+    outline-width: 0;
+}
+.language a:hover, .language .active, .language .active:active {
+	color:#fff;
+}
+.language a {
+	text-decoration:none;
+	padding:0px 5px;
+	color:#A4A2A2;
+}
+.main-nav {
+	clear:both;
+}
+#primary-nav .main-nav {
+	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.4)), color-stop(100%, rgba(0, 0, 0, 0.4))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66000000', endColorstr='#66000000', GradientType=0 ); /* IE6-9 */
+	border:2px solid rgba(255, 255, 255, 0.1);
+	border-bottom:none;
+}
+#primary-nav .main-nav  li > ul {
+	/*padding:16px 8px 15px 16px; */
+	background:#fefefe;}
+
+#primary-nav .main-nav li a {
+	display: block;
+    font: 14px 'DroidSans-webfont';
+    height: 31px;
+    margin: 8px 10px 0;
+    padding: 11px 8px 0;
+    vertical-align: middle;
+	/* border-bottom: 1px dotted #555555; */
+}
+#primary-nav  .sub-menu .menu-item a{
+	border-bottom: 1px dotted #555555; 
+}
+#primary-nav .main-nav > li > a {
+	display: block;
+    font: 15px 'DroidSans-webfont';
+    height: 31px;
+    margin: 6px 1px 0;
+    padding: 11px 8px 0;
+    vertical-align: middle;
+	
+	
+}
+#primary-nav .main-nav li a .sf-sub-indicator{
+	display:none;
+	}
+#primary-nav .main-nav li ul li a .sf-sub-indicator {
+	background: url(/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/drop-nav-arrow.png) no-repeat scroll 95% 60% transparent;
+	display: block;
+	height: 10px;
+	position: absolute;
+	right: 0px;
+	text-indent: -999em;
+	top: 15px;
+	width: 10px;
+}
+#primary-nav .main-nav li a:hover, #primary-nav .main-nav li.current-menu-item a {
+	color:#bf782b;
+}
+#primary-nav .main-nav li li li a{
+	color:#602E0F;
+	}
+#primary-nav .main-nav li ul li ul{
+	background:#ccc;
+	}
+#primary-nav .main-nav li.sfHover li li a{
+	background-color:transparent;
+	color:#602E0F;
+	}
+#primary-nav .main-nav li.sfHover li li a:hover{
+	color:#bf782b;
+	}
+.main-nav > li.sfHover a{
+	background-color:#fff;
+	color:#bf782b;
+	}
+.main-nav > li > a:hover{
+	webkit-box-shadow:-1px 5px 4px -5px rgba(0, 0, 0, 0.98) inset;
+	box-shadow:-1px 5px 4px -5px rgba(0, 0, 0, 0.98) inset;
+	}
+#primary-nav .main-nav li {
+	padding:0px 0px;
+}
+#primary-nav .main-nav li li a{
+	height:auto;
+	padding-bottom:9px;
+}
+#primary-nav  .sub-menu .sub-menu {
+	width: 260px;
+}
+.billboard {
+	margin-bottom: 30px;
+	height: 396px;
+	background:url(/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/banner-shadow.png) no-repeat center bottom;
+}
+.flexslider.main-slider {
+	margin-top:25px !important;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border:none;
+	border-radius:0;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+	margin: 0 0 60px;
+	position: relative;
+}
+.flexslider.main-slider .flex-control-paging li a.flex-active {
+	background: url('/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/sprite.png') no-repeat -114px -5px;
+	width: 18px;
+	height: 18px;
+	cursor: default;
+}
+.flexslider.main-slider .flex-control-paging li a {
+	background: url('/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/sprite.png') no-repeat -140px -4px;
+	width: 19px;
+	height: 18px;
+}
+.flex-direction-nav {
+	display:none;
+}
+.banner-detail {
+	width:425px;
+	position:absolute;
+	top:90px;
+	padding-left:40px;
+}
+.banner-detail h2 {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.51);
+	font: 36px/39px 'HelveticaWorldBold';
+	color: #FFFFFF;
+}
+a.link {
+	background: rgb(231,120,1); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(231, 120, 1, 1) 0%, rgba(193, 100, 1, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(231, 120, 1, 1)), color-stop(100%, rgba(193, 100, 1, 1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(231, 120, 1, 1) 0%, rgba(193, 100, 1, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(231, 120, 1, 1) 0%, rgba(193, 100, 1, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(231, 120, 1, 1) 0%, rgba(193, 100, 1, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(231, 120, 1, 1) 0%, rgba(193, 100, 1, 1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e77801', endColorstr='#c16401', GradientType=0 ); /* IE6-9 */
+	color:#fff;
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.50), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+	-moz-box-shadow:    0 0 2px rgba(0, 0, 0, 0.50), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+	box-shadow:         0 0 2px rgba(0, 0, 0, 0.50), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.51);
+	text-transform:uppercase;
+	border-radius:4px;
+	font:14px 'HelveticaWorldBold';
+	text-decoration:none;
+	display:block;
+	margin-top:20px;
+	padding: 16px 0 16px 15px;
+}
+a.link:hover {
+	background: rgb(193,100,1); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(193, 100, 1, 1) 0%, rgba(231, 120, 1, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(193, 100, 1, 1)), color-stop(100%, rgba(231, 120, 1, 1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(193, 100, 1, 1) 0%, rgba(231, 120, 1, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(193, 100, 1, 1) 0%, rgba(231, 120, 1, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(193, 100, 1, 1) 0%, rgba(231, 120, 1, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(193, 100, 1, 1) 0%, rgba(231, 120, 1, 1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c16401', endColorstr='#e77801', GradientType=0 ); /* IE6-9 */
+}
+.link .sprite {
+	background-position: -97px -7px;
+	height: 10px;
+	line-height: 10px;
+	margin-left: 15px;
+	width: 7px;
+}
+#content {
+	padding-bottom: 40px;
+	clear:both;
+}
+.content-sec {
+	overflow:hidden;
+	width:640px;
+	float:left;
+}
+.caption, .gform_title {
+	font:24px 'HelveticaWorldRegular';
+	color:#555555;
+}
+.intro-sec {
+	border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 35px;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.intro-sec p {
+    color: #6C6C6C;
+    font: 12px/1.5 Arial,Helvetica,sans-serif;
+}
+#home .intro-sec p:first-of-type{
+	font: 14px/1.5 Arial,Helvetica,sans-serif;
+	}
+#nepal .intro-sec p:first-of-type{
+	font:italic 18px/1.5 'HelveticaWorldRegular';
+	color:#9e9e9e;
+	}
+.intro-sec .highlight-text {
+	font:14px Arial, Helvetica, sans-serif;
+	margin-bottom:0px;
+}
+#home .intro-sec a.pink{
+	font:12px 'HelveticaWorldBold';
+	margin-top:10px;
+	}
+a.pink{
+	float:left;
+	padding:10px;
+	background: rgb(220,108,87); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(220, 108, 87, 1) 0%, rgba(197, 85, 64, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(220, 108, 87, 1)), color-stop(100%, rgba(197, 85, 64, 1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(220, 108, 87, 1) 0%, rgba(197, 85, 64, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(220, 108, 87, 1) 0%, rgba(197, 85, 64, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(220, 108, 87, 1) 0%, rgba(197, 85, 64, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(220, 108, 87, 1) 0%, rgba(197, 85, 64, 1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dc6c57', endColorstr='#c55540', GradientType=0 ); /* IE6-9 */
+ 	box-shadow:inset 0 1px 1px #F8D3CC, 0 1px 2px 0px #928585;
+	border:1px solid #ae3d28;
+}
+a.pink:hover, #trekking-detail-inner .pink:hover ,  .single-package a.pink:hover{
+	background: rgb(240,128,107); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(240, 128, 107, 1) 0%, rgba(199, 87, 66, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(240, 128, 107, 1)), color-stop(100%, rgba(199, 87, 66, 1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(240, 128, 107, 1) 0%, rgba(199, 87, 66, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(240, 128, 107, 1) 0%, rgba(199, 87, 66, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(240, 128, 107, 1) 0%, rgba(199, 87, 66, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(240, 128, 107, 1) 0%, rgba(199, 87, 66, 1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0806b', endColorstr='#c75742', GradientType=0 ); /* IE6-9 */
+}
+a.pink:active, #trekking-detail-inner .pink:active,  .single-package a.pink:active {
+	background: rgb(195,83,62); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(195, 83, 62, 1) 0%, rgba(217, 105, 84, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(195, 83, 62, 1)), color-stop(100%, rgba(217, 105, 84, 1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(195, 83, 62, 1) 0%, rgba(217, 105, 84, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(195, 83, 62, 1) 0%, rgba(217, 105, 84, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(195, 83, 62, 1) 0%, rgba(217, 105, 84, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(195, 83, 62, 1) 0%, rgba(217, 105, 84, 1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3533e', endColorstr='#d96954', GradientType=0 ); /* IE6-9 */
+}
+.single-package .article-overview a.pink{
+	float:left;
+	padding:10px;
+	background: rgb(220,108,87); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(220, 108, 87, 1) 0%, rgba(197, 85, 64, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(220, 108, 87, 1)), color-stop(100%, rgba(197, 85, 64, 1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(220, 108, 87, 1) 0%, rgba(197, 85, 64, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(220, 108, 87, 1) 0%, rgba(197, 85, 64, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(220, 108, 87, 1) 0%, rgba(197, 85, 64, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(220, 108, 87, 1) 0%, rgba(197, 85, 64, 1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dc6c57', endColorstr='#c55540', GradientType=0 ); /* IE6-9 */
+ 	box-shadow:inset 0 1px 1px #F8D3CC, 0 1px 2px 0px #928585;
+	border:1px solid #ae3d28;
+}
+.single-package .article-overview a.package-book{
+	float:left;
+	padding:9px;
+	background: rgb(220,108,87); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(220, 108, 87, 1) 0%, rgba(197, 85, 64, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(220, 108, 87, 1)), color-stop(100%, rgba(197, 85, 64, 1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(220, 108, 87, 1) 0%, rgba(197, 85, 64, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(220, 108, 87, 1) 0%, rgba(197, 85, 64, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(220, 108, 87, 1) 0%, rgba(197, 85, 64, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(220, 108, 87, 1) 0%, rgba(197, 85, 64, 1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dc6c57', endColorstr='#c55540', GradientType=0 ); /* IE6-9 */
+ 	box-shadow:inset 0 1px 1px #F8D3CC, 0 1px 2px 0px #928585;
+	border:1px solid #ae3d28;
+	font-size:12px;
+	margin-right:0;
+	
+}
+.single-package .article-overview a.package-book:hover{
+	background: #c55540;
+	background: -moz-linear-gradient(top,  #c55540 0%, #dc6c57 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c55540), color-stop(100%,#dc6c57));
+	background: -webkit-linear-gradient(top,  #c55540 0%,#dc6c57 100%);
+	background: -o-linear-gradient(top,  #c55540 0%,#dc6c57 100%);
+	background: -ms-linear-gradient(top,  #c55540 0%,#dc6c57 100%);
+	background: linear-gradient(to bottom,  #c55540 0%,#dc6c57 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c55540', endColorstr='#dc6c57',GradientType=0 );
+
+}
+.article-overview a.gray{
+	float:left;
+	padding:9px;
+	background: rgb(234,234,234); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(234, 234, 234, 1) 0%, rgba(210, 210, 210, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(234, 234, 234, 1)), color-stop(100%, rgba(210, 210, 210, 1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(234, 234, 234, 1) 0%, rgba(210, 210, 210, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(234, 234, 234, 1) 0%, rgba(210, 210, 210, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(234, 234, 234, 1) 0%, rgba(210, 210, 210, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(234, 234, 234, 1) 0%, rgba(210, 210, 210, 1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#d2d2d2', GradientType=0 ); /* IE6-9 */
+	font-size:12px;
+	margin-right:18px;
+	box-shadow:inset 0 1px 1px #eeeeee, 0 1px 2px 0px #928585;
+	border:1px solid #bcbcbc;
+	margin-left:19px;
+	margin-right:0;
+	color:#555;
+	text-shadow:2px -2px 0px #F5EEEE;
+	}
+.article-overview a.gray:hover{
+	background: #d2d2d2;
+	background: -moz-linear-gradient(top,  #d2d2d2 0%, #eeeeee 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2d2d2), color-stop(100%,#eeeeee));
+	background: -webkit-linear-gradient(top,  #d2d2d2 0%,#eeeeee 100%);
+	background: -o-linear-gradient(top,  #d2d2d2 0%,#eeeeee 100%);
+	background: -ms-linear-gradient(top,  #d2d2d2 0%,#eeeeee 100%);
+	background: linear-gradient(to bottom,  #d2d2d2 0%,#eeeeee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2d2d2', endColorstr='#eeeeee',GradientType=0 );
+
+}
+.package-listing {
+	margin-top:20px;
+	width:655px;
+}
+.package-listing, .meta-sec {
+	margin-left:0px;
+}
+.package-listing > li {
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
+	-moz-box-shadow:    0 1px 1px rgba(0, 0, 0, 0.10);
+	box-shadow:         0 1px 1px rgba(0, 0, 0, 0.10);
+	margin-bottom:15px;
+	margin-right:14px;
+	list-style-type:none;
+	float:left;
+	border:1px solid #e2e2e2;
+	border-radius:3px;
+	background:#fff;
+}
+
+.package-listing .package{
+}
+.package-listing .package .img-hld {
+	position: relative;
+	margin: 5px 5px 10px;
+}
+.img-hld a{
+	text-decoration:none;
+}
+.package-listing .package .img-hld img {
+	display: block;
+}
+.package-listing .package .img-hld .img-caption {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	color: #fff;
+	font-weight: bold;
+	font-size:12px;
+}
+.img-hld a .img-caption  {
+	color: #fff;
+		font-weight: bold;
+	font-size:12px;
+}
+.meta-sec li {
+	font:12px 'HelveticaWorldBold';
+	color:#595959;
+	padding:8px 0px;
+	border-bottom:1px dashed #e2e2e2;
+	list-style-type:none;
+}
+.grade {
+	font:bold 11px Arial, Helvetica, sans-serif;
+}
+.teaser-sec {
+	margin-bottom:35px;
+}
+.meta-sec li .meta-duration, .meta-sec li .meta-region, .meta-sec li .meta-grade {
+	display: inline-block;
+	padding-left: 5px;
+	width: 120px;
+}
+.meta-sec li .meta-duration .sprite {
+	background-position: -204px -6px;
+	float: right;
+	height: 17px;
+	margin-right: 10px;
+	width: 16px;
+}
+.meta-sec li .meta-region .sprite {
+	background-position: -235px -7px;
+	float: right;
+	height: 18px;
+	margin-right: 10px;
+	width: 12px;
+}
+.meta-sec li .meta-grade {
+	background:url(/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/grade-graph.png) no-repeat 90% center;
+}
+a.view-btn {
+	padding:6px 20px;
+	margin:10px;
+	border-radius:15px;
+	float:right;
+	text-decoration:none;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	background:#e2e2e2;
+	color:#555555;
+}
+.view-btn:hover {
+	color:#e57701;
+}
+.img-caption {
+	background:none repeat scroll 0 0 rgba(0, 0, 0, 0.59);
+	left: 5px;
+	padding: 10px;
+	position: absolute;
+	top: 119px;
+	width: 170px;
+}
+.img-caption a {
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#f7f7f7;
+	text-decoration:none;
+}
+#side-bar {
+	float: left;
+	padding-left: 34px;
+	width: 265px;
+}
+.teaser-sec .caption {
+	margin-bottom:20px;
+}
+.meta-box {
+	background:#f5f5f5;
+	margin-left:0px;
+}
+.meta-box > li {
+	overflow: hidden;
+	padding:13px 25px 10px 25px;
+	border-bottom:1px solid #dfdfdf;
+	border-top:1px solid #fff;
+	list-style-type:none;
+}
+.meta-box > li:first-child {
+	border-top: medium none;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+}
+.meta-box > li:first-child .date {
+	padding-left:25px;
+}
+.meta-box > li:last-child {
+	border-bottom:none;
+}
+.meta-box .view-btn {
+	float: left;
+	margin: 0 0 5px;
+}
+.date {
+	float:left;
+}
+.meta-list {
+	overflow: hidden;
+}
+.meta-list .date > span {
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#6aa157;
+	display:block;
+	padding-bottom:0px;
+	text-align: center;
+	text-transform:uppercase;
+}
+.meta-list .date .day {
+	padding-top:0px;
+	font:bold 17px Arial, Helvetica, sans-serif;
+	color:#555555;
+}
+.meta-list ul {
+    float: left;
+    margin-left: 10px;
+    width: 182px;
+}
+#side-bar .meta-list ul {
+  	float: left;
+    margin-left: 22px;
+    width: 156px;
+}
+.meta-list li {
+	list-style-type: none;
+	margin-bottom:2px;
+}
+.meta-list ul li a {
+	text-decoration:none;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#e77801;
+	margin-bottom:3px;
+}
+.meta-list ul li a:hover {
+	color:#918C86;
+}
+.meta-list ul li {
+	color:#555555;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.meta-list ul li span {
+	display: inline-block;
+	font: 12px/10px 'HelveticaWorldBold';
+	width: 96px;
+}
+.info-sec {
+	margin-bottom:30px;
+}
+.info-sec .caption {
+	margin-bottom:20px;
+}
+.info-list {
+	margin-left:0px;
+}
+.info-list li {
+	border-bottom:1px dotted #cdbfac;
+	list-style-type:none;
+}
+.info-list li a {
+	color: #E57701;
+	display: block;
+	font: 14px Arial, Helvetica, sans-serif;
+	padding: 9px 0;
+	text-decoration: none;
+}
+.info-list li a:hover {
+	color:#918C86;
+}
+.info-list li a span {
+    display: block;
+    float: left;
+    height: 35px;
+    margin-right: 15px;
+}
+.teaser-quote {
+	color:#555;
+	margin:0 0 30px 0;
+	border: medium none;
+	font: 24px/30px 'HelveticaWorldRegular';
+	padding: 15px 0 0 10px;
+	position: relative;
+}
+a.testimonial_block,
+a.testimonial_block:visited{
+	text-decoration:none;
+	color:#909090;
+}
+a.testimonial_block:hover{
+	color: #909090;
+}
+.teaser-quote span {
+	padding-top: 10px;
+	display:block;
+	color:#a1a1a1;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.teaser-quote .sprite {
+	background-position: -258px -3px;
+	height: 31px;
+	left: -2px;
+	position: absolute;
+	top: -2px;
+	width: 40px;
+}
+.teaser-highlight {
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
+	-moz-box-shadow:    0 1px 1px rgba(0, 0, 0, 0.10);
+	box-shadow:         0 1px 1px rgba(0, 0, 0, 0.10);
+	float: right;
+	overflow: hidden;
+	position: relative;
+}
+.teaser-highlight img {
+	float: right;
+}
+.teaser-highlight-inner {
+	width:170px;
+	position:absolute;
+	top:20px;
+	left:20px;
+}
+.teaser-highlight-inner h3 {
+	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.51);
+	padding-bottom:20px;
+	color: #FFFFFF;
+	font: 24px/26px 'HelveticaWorldBold';
+	text-transform:uppercase;
+}
+.teaser-highlight-inner span {
+	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.51);
+	font: 18px/13px 'HelveticaWorldBold';
+	color:#fff;
+}
+.highlight .caption {
+	margin-bottom:20px;
+}
+.highlight-img-list {
+	margin-left:0px;
+}
+.highlight-img-list li {
+	margin-right:45px;
+	-webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    0px 0px 5px rgba(50, 50, 50, 1);
+	box-shadow:         0px 0px 5px rgba(50, 50, 50, 1);
+	position:relative;
+	list-style-type:none;
+	float:left;
+	background:#fff;
+	padding:5px;
+}
+.highlight-img-list .img-caption {
+	top: 302px;
+}
+.highlight-img-list li:last-child {
+	margin-right:0px;
+}
+.highlight-img-list img {
+    display: block;
+}
+.widget-container header.widget-title{
+	text-indent:-999em;
+	}
+.widget-container .widget_text{
+		float:left;
+		margin-right: 22px;
+		width:290px;
+		}
+.widget-container .widget-homestay-in-nepal{
+		margin:0;
+		}
+a.package-link{
+	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.51);
+	font: 14px/13px 'HelveticaWorldBold';
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+		}
+a.package-link:hover{
+	color:#E77801;
+	}
+.widget-container .teaser-highlight-inner {
+    left: 20px;
+    position: absolute;
+    top: 73px;
+    width: 180px;
+}
+.widget-container .teaser-highlight-inner h3{
+ 	margin-top: 11px;
+    padding-bottom: 8px;
+}
+.wp-pagenavi{
+	clear: both;
+    margin: 0 auto;
+    padding-bottom: 6px;
+    text-align:center;
+	}
+#search.interior .wp-pagenavi{
+	margin-top:30px;
+	}
+#side-bar .info-sec .caption{
+	font-size:23px;
+	}
+.tax-packages_categories .billboard-content p{
+	color: #555555;
+    font: 15px/20px 'HelveticaLTStd-Light';
+    text-shadow: 0 1px 0 #FFFFFF;
+	padding:0;
+	margin:0;
+	}
+.slideshowlink{
+	display:none;
+	}
+/*=foooter
+---------------------------------------*/
+#footer {
+	clear:both;
+	background:url(/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/footer-bg.jpg) no-repeat center bottom;
+	background-size:cover;
+	padding-top: 60px;
+}
+.footer-col {
+	float: left;
+	margin-right:80px;
+	width:196px;
+}
+.footer-col .caption {
+	margin-bottom:20px;
+}
+.footer-col .regions {
+	margin-left:0px;
+}
+.footer-col .regions li {
+	 border-bottom: 1px dotted #6C6C6C;
+    list-style-type: none;
+    padding-bottom: 3px;
+    padding-top: 6px;
+}
+.footer-col .regions li a {
+	color:#6c6c6c;
+	font:12px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+.footer-col .regions li a:hover {
+	color:#343434;
+}
+.contact-list {
+	margin-left:0px;
+}
+.copyright > a {
+    float: right;
+    margin-top: -3px;
+}
+.contact-list li {
+	list-style-type:none;
+}
+.footer-contact .caption {
+	margin-bottom:20px;
+}
+.contact-col {
+	color: #6C6C6C;
+	float: left;
+	font: 12px/17px Arial, Helvetica, sans-serif;
+	margin-right: 24px;
+}
+.contact-col a {
+	text-decoration:none;
+	color:#d78a32;
+	margin-top:5px;
+	display:block;
+}
+.contact-col a:hover {
+	color:#B06108;
+}
+.footer-nav {
+	overflow:hidden;
+	border-bottom:1px solid #e7e7e7;
+	clear:both;
+	padding-top:40px;
+	padding-bottom:20px;
+	margin-left:0px;
+}
+.footer-nav li {
+	float:left;
+	list-style-type:none;
+}
+.footer-nav li a {
+	padding-right:30px;
+	color:#6c6c6c;
+	font:12px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+.footer-nav li a:hover {
+	color:#211F1F;
+}
+.bottom-footer span {
+	color: #555555;
+	float: left;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+.bottom-footer img {
+	padding-top:15px;
+	padding-bottom:40px;
+	margin-right:20px;
+}
+.copyright {
+	font: 11px Arial, Helvetica, sans-serif;
+	color:#190a0a;
+	float: right;
+	padding-top: 30px;
+}
+.copyright img {
+    float: right;
+    margin-left: 10px;
+    padding: 0;
+}
+.quick-message-box-ico {
+	width:48px;
+	position:relative;
+	position:fixed;
+	top:20%;
+	right:0%;
+}
+.quick-message-box {
+	width:242px;
+	position:relative;
+	position:fixed;
+	top:20%;
+	right: -250px;
+}
+.quick-message-box-ico img {
+	border-radius: 5px 0 0 5px;
+}
+.title-box {
+	border-radius: 4px 4px 0 0;
+	border:1px solid #e48a00;
+	background: rgb(255,168,33); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255, 168, 33, 1) 0%, rgba(253, 146, 0, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 168, 33, 1)), color-stop(100%, rgba(253, 146, 0, 1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255, 168, 33, 1) 0%, rgba(253, 146, 0, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255, 168, 33, 1) 0%, rgba(253, 146, 0, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255, 168, 33, 1) 0%, rgba(253, 146, 0, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255, 168, 33, 1) 0%, rgba(253, 146, 0, 1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa821', endColorstr='#fd9200', GradientType=0 ); /* IE6-9 */
+}
+.title-box .sprite {
+	background-position: -36px -9px;
+	float: left;
+	height: 9px;
+	margin: 12px;
+	width: 15px;
+}
+.title-box .title {
+	color:#fff;
+	font: 14px/12px 'HelveticaWorldBold';
+	background: url("/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/close-btn.png") no-repeat scroll right 60% transparent;
+	border-left: 1px solid #E48A00;
+	display: inline-block;
+	padding: 10px 0 10px 12px;
+	width: 180px;
+}
+.quick-message-box form {
+	padding:10px;
+	background:#f3f3f3;
+	border-radius:0px 0px 4px 4px;
+	border:1px solid #dbdbdb;
+}
+.quick-message-box form input, .quick-message-box form textarea {
+	background: none repeat scroll 0 0 #F9F9F9;
+	border: 1px solid #DFDFDF;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 3%;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
+	-moz-box-shadow:    0 1px 1px rgba(0, 0, 0, 0.10);
+	box-shadow:         0 1px 1px rgba(0, 0, 0, 0.10);
+}
+.quick-message-box form textarea {
+	margin: 0 0 10px;
+	max-width: 200px;
+	min-height: 130px;
+}
+.quick-message-box form .button {
+	background: rgb(253,253,253); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(253, 253, 253, 1) 0%, rgba(237, 237, 237, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(253, 253, 253, 1)), color-stop(100%, rgba(237, 237, 237, 1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(253, 253, 253, 1) 0%, rgba(237, 237, 237, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(253, 253, 253, 1) 0%, rgba(237, 237, 237, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(253, 253, 253, 1) 0%, rgba(237, 237, 237, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(253, 253, 253, 1) 0%, rgba(237, 237, 237, 1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#ededed', GradientType=0 ); /* IE6-9 */
+	border-radius: 4px 4px 4px 4px;
+	color: #FF9100;
+	font: 14px/12px 'HelveticaWorldBold';
+	padding: 4px 0;
+	width: 98px;
+}
+.quick-message-box form .button:hover {
+	background: rgb(237,237,237); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(237, 237, 237, 1) 0%, rgba(253, 253, 253, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(237, 237, 237, 1)), color-stop(100%, rgba(253, 253, 253, 1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(237, 237, 237, 1) 0%, rgba(253, 253, 253, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(237, 237, 237, 1) 0%, rgba(253, 253, 253, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(237, 237, 237, 1) 0%, rgba(253, 253, 253, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(237, 237, 237, 1) 0%, rgba(253, 253, 253, 1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#fdfdfd', GradientType=0 ); /* IE6-9 */
+}
+.close-btn {
+	display: block;
+	margin-bottom: 0;
+	position: absolute;
+	right: 0;
+	top: 11px;
+	width: 31px;
+}
+/*=Innerpage-Nepal
+---------------------------------------*/
+/* #nepal #header {
+	-webkit-box-shadow:  0 10px 15px -10px rgba(0, 0, 0, 0.15);
+	box-shadow:  0 10px 15px -10px rgba(0, 0, 0, 0.15);
+	padding-bottom:25px;
+	margin-bottom:15px;
+} */
+#nepal .top-header {
+	background: url(/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/inner-top-header-bg.jpg) no-repeat top center;
+	background-size:cover;
+}
+#nepal .billboard {
+	height: 271px;
+	margin-top: 40px;
+	margin-bottom:0px;
+}
+#nepal .billboard img {
+	float:left;
+}
+.billboard-content {
+    background: url("/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/banner-content-bg.jpg") no-repeat scroll center center transparent;
+    float: left;
+    height: 238px;
+    width: 276px;
+}
+#nepal .billboard-content{
+	height: 185px;
+    padding: 22px 13px 31px 22px;
+    width: 264px;
+	}
+#nepal .billboard-content h3{
+	padding:33px 0 0 0;
+	word-spacing: -3px;
+	}
+#nepal .billboard-content span{
+	padding:0;
+	}
+#nepal .breadcrumb{
+	padding-top:3px;
+	padding-bottom:20px;
+	}
+.main-nav .current-page-ancestor a{
+	background:#fff;
+	box-shadow : -1px 5px 4px -5px rgba(0, 0, 0, 0.98) inset;
+   color : #BF782B;
+	}
+.billboard-content h3, .billboard-content h3 span {
+	color:#555555;
+	font: 28px/29px 'HelveticaLTStd-Light';
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+.billboard-content h3 {
+    margin-bottom: 20px;
+    padding: 20px 0 0 20px;
+}
+.billboard-content h3 span {
+	padding-left:0px;
+	display:block;
+}
+.billboard-content span {
+    color: #404042;
+    font: bold 12px Arial,Helvetica,sans-serif;
+    padding-left: 20px;
+}
+.under-banner{
+	padding-bottom:25px;
+	margin-bottom:15px;
+}
+.under-banner h5 {
+	color: #555555;
+	float: left;
+	font: 18px/15px 'HelveticaWorldRegular';
+	margin-right: 30px;
+}
+.underbanner-meta {
+	margin-left:0px;
+	float:left;
+}
+.underbanner-meta li {
+	float: left;
+	list-style-type: none;
+	margin-right: 34px;
+}
+.underbanner-meta li span {
+	color:#404042;
+	font:14px Arial, Helvetica, sans-serif;
+}
+.underbanner-meta li .sprite {
+	margin-right: 10px;
+	background-position:-235px -9px;
+	width: 12px;
+	height: 16px;
+}
+.underbanner-meta li .sprite.altitude {
+	margin-right: 10px;
+	background-position:-306px -7px;
+	width: 19px;
+	height: 13px;
+}
+.underbanner-meta li .sprite.weather {
+	margin-right: 10px;
+	background-position:-340px -6px;
+	width: 19px;
+	height: 17px;
+}
+.underbanner-meta li a {
+	color:#6aa157;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	margin-right:5px;
+}
+.breadcrumb {
+	padding-bottom:35px;
+}
+.breadcrumb a {
+	color: #555555;
+	font: 12px 'HelveticaWorldRegular';
+	padding: 0 5px;
+	text-decoration: none;
+}
+.breadcrumb a:hover {
+	color:#e57701;
+}
+.breadcrumb .active-page, 
+.breadcrumb .current-item {
+	color:#e57701;
+}
+#nepal .highlight-text {
+	color: #9E9E9E;
+	font: 18px/24px 'HelveticaWorldRegular';
+}
+.highlight-box {
+	overflow:hidden;
+}
+.highlight-images {
+	margin-left: 0;
+	width: 682px;
+}
+.highlight-images li {
+	position:relative;
+	float:left;
+	text-decoration:none;
+}
+.highlight-images .img-hld {
+	position: relative;
+}
+.highlight-images .img-hld a .img-caption {
+	height: 35px;
+	bottom: 3px;
+	left: 0;
+	top: auto;
+	width: 93%;
+	color: #FFFFFF;
+  font: 18px 'HelveticaWorldBold';
+	padding-top: 15px;
+}
+.highlight-images li:hover .img-caption {
+	display: none;}
+#nepal .img-caption a {
+	display: block;
+	padding-top: 10px;
+}
+.highlight-images li {
+	list-style-type:none;
+	margin-right: 40px;
+	margin-bottom:40px;
+}
+.highlight-img-holder img {
+	display:block;
+}
+.highlight-img-holder .img-caption a {
+	color:#fff;
+	font: 18px 'HelveticaWorldBold';
+}
+.highlight-hover-text {
+	cursor:pointer;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.59);
+	height: 219px;
+	overflow: hidden;
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	width: 260px;
+}
+.highlight-hover-text span {
+	color: #FFFFFF;
+	display: block;
+	 font: 18px/18px 'HelveticaWorldBold';;
+	padding-bottom: 12px;
+}
+.highlight-hover-text p {
+	color:#d6d6d6;
+	font:12px Arial, Helvetica, sans-serif;
+}
+.highlight-hover-text .view-btn {
+	float:left;
+	margin:10px 0 0 0;
+}
+#nepal #side-bar {
+	padding-left: 27px;
+	width: 273px;
+}
+/*=Inner Trekking-Nepal
+---------------------------------------*/
+#trekking-nepal .top-header {
+	background: url(/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/nepal-trek-header-bg.jpg) no-repeat top center;
+	background-size:cover;
+}
+#trekking-nepal .breadcrumb ,
+.page  .breadcrumb,
+.archive .breadcrumb{
+	padding-top:45px;
+}
+.article-sec {
+	margin-bottom:50px;
+}
+.article-overview {
+	width:455px;
+	float:left;
+	padding-right:25px;
+}
+.article-overview ul {
+	padding: 40px 0px 30px 100px;
+	background:url(/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/article-bg.jpg) no-repeat center;
+	margin-left:0px;
+}
+.article-overview ul li {
+	padding-bottom:10px;
+	color:#555555;
+	font:18px 'HelveticaLTStd-Light';
+	list-style-type:none;
+}
+.article-wrap {
+	overflow:hidden;
+	float:left;
+	width:460px;
+	line-height:18px;
+	color: #6C6C6C;
+}
+.article-wrap p {
+	color: #6C6C6C;
+	font: 12px Arial, Helvetica, sans-serif;
+	margin-bottom: 0;
+	padding-top: 0;
+	line-height:23px;
+}
+.article-wrap .article-caption {
+	padding-bottom:10px;
+	display:block;
+	color:#e57701;
+	text-decoration:none;
+	font:18px Arial, Helvetica, sans-serif;
+}
+.img-holder {
+	overflow: hidden;
+	position: relative;
+}
+.img-holder h4 {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.51);
+	position:absolute;
+	bottom:20px;
+	left:20px;
+	color:#fff;
+	font: 36px 'HelveticaWorldBold';
+}
+.img-holder img {
+	float:left;
+}
+.variety {
+	overflow:hidden;
+	padding:20px 0;
+	width:480px;
+	margin-left:0px;
+}
+.variety li {
+	float:left;
+	margin-right:20px;
+	position:relative;
+	list-style-type:none;
+}
+.variety li img {
+	display:block;
+}
+.variety li .img-caption {
+    bottom: 0;
+    left: 0;
+    top: auto;
+    width: 120px;
+}
+.variety li .img-caption a {
+    color: #FFFFFF;
+    display: block;
+    font: 11px/1 Arial,Helvetica,sans-serif;
+}
+.article-wrap .view-btn {
+	float: left;
+	margin: 0;
+}
+a.mainsite-home{
+	display:none;
+	}
+/*=Inner Trekking-Nepal-Detail
+---------------------------------------*/
+#trekking-detail .top-header {
+	background: url(/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/nepal-trek-header-bg.jpg) no-repeat top center;
+	background-size:cover;
+}
+#trekking-detail .billboard , 
+.archive .billboard{
+	height: 271px;
+	margin-top: 40px;
+	margin-bottom:0px;
+}
+#trekking-detail .billboard img,
+.archive .billboard,
+.archive .billboard img  {
+	float:left;
+}
+#trekking-detail .billboard-content {
+	padding: 30px 0 31px 25px;
+}
+#trekking-detail .billboard-content h3 {
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+	color:#555555;
+	font:18px/26px 'HelveticaLTStd-Light';
+}
+#trekking-detail .billboard-content .view-btn {
+	background:#fff;
+	color:#e57701;
+	margin:0;
+	float:left;
+}
+#trekking-detail .billboard-content .view-btn:hover {
+	color:#918C86;
+}
+#trekking-detail .highlight-text {
+	color:#747474;
+	font:18px Arial, Helvetica, sans-serif;
+}
+#trekking-detail .intro-sec {
+	margin-bottom:20px;
+}
+#trekking-detail #side-bar {
+	padding-left: 27px;
+	width: 273px;
+}
+#trekking-detail #side-bar .caption {
+	font-size:23px;
+}
+.archive .billboard-content {
+    height: 177px;
+	padding: 30px 16px 31px 25px;
+	width:260px;
+}
+a.aside-link {
+	text-decoration:none;
+	color:#e57701;
+	font:14px Arial, Helvetica, sans-serif;
+}
+.aside-link span {
+	margin-right:10px;
+}
+.aside-link:hover {
+	color:#9C6528;
+}
+/*=Inner Trekking-Nepal-Detail-Inner
+---------------------------------------*/
+#trekking-detail-inner .top-header {
+	background: url(/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/nepal-trek-header-bg.jpg) no-repeat top center;
+	background-size:cover;
+}
+#trekking-detail-inner .billboard {
+	height: 271px;
+	margin-top: 40px;
+	margin-bottom:0px;
+}
+#trekking-detail-inner .billboard img {
+	float:left;
+}
+#trekking-detail-inner .billboard-content {
+    padding: 0 0 0 19px;
+}
+#trekking-detail-inner .billboard-content h3 {
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+	color:#555555;
+	font:18px/26px 'HelveticaLTStd-Light';
+}
+.single .package-listing {
+    margin-top: 20px;
+    width: 960px;
+}
+.single .package-listing > li {
+    margin-bottom: 20px;
+    margin-right: 38px;
+}
+.single-package .package-listing > li {
+    margin-bottom: 20px;
+    margin-right: 21px;
+}
+/*.single-package .package-listing .img-caption{
+	width:186px;
+	}*/
+.trip-detail {
+    margin-left: 0;
+    padding-top: 20px;
+}
+.trip-detail li {
+	color:#8b8b8b;
+	font:12px Arial, Helvetica, sans-serif;
+	padding-bottom:10px;
+	list-style-type:none;
+	overflow:hidden;
+}
+.trip-detail li .detail-title {
+	  background:url(/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/doot.png) no-repeat right ;
+    display:inline-block;
+    padding-left: 0;
+    width: 104px;
+	float:left;
+	font-weight:normal;
+	color:#747474;
+}
+.breadcrumb a:last-child{
+	color:#E57701;
+	}
+.trip-detail li .detail-content{
+	display:block;
+	font-weight:normal;
+	overflow:hidden;
+	color:#747474;
+	}
+.trip-detail span {
+	padding-left: 10px;
+}
+.map-cover {
+	border: 1px solid #B5B5B5;
+	margin-bottom: 20px;
+	font-size:0;
+}
+#trekking-detail-inner .caption {
+	margin-bottom:20px;
+}
+.article-overview p {
+	color:#747474;
+	font:12px Arial, Helvetica, sans-serif;
+	line-height:23px;
+}
+#trekking-detail-inner a.pink , .single-package a.pink{
+	background: rgb(234,234,234); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(234, 234, 234, 1) 0%, rgba(210, 210, 210, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(234, 234, 234, 1)), color-stop(100%, rgba(210, 210, 210, 1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(234, 234, 234, 1) 0%, rgba(210, 210, 210, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(234, 234, 234, 1) 0%, rgba(210, 210, 210, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(234, 234, 234, 1) 0%, rgba(210, 210, 210, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(234, 234, 234, 1) 0%, rgba(210, 210, 210, 1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#d2d2d2', GradientType=0 ); /* IE6-9 */
+	font-size:12px;
+	margin-right:18px;
+}
+
+.social-link {
+	float: left;
+	margin: 20px 0 0 0;
+}
+.social-link > span {
+	margin-right:10px;
+	}
+.itinerary-sec > ul{
+	margin:0 0 40px 0;
+	}
+.itinerary-sec > ul li:first-child {
+	padding-top:0px;
+}
+.itinerary-sec > ul li {
+	padding:10px 0;
+	border-bottom:1px dotted #6c6c6c;
+	list-style-type:none;
+	overflow:hidden;
+}
+.itinerary-sec > ul li strong {
+	padding-left:5px;
+	width:64px;
+	float:left;
+	margin-right:15px;
+	color:#747474;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+.itinerary-sec > ul li strong:after {
+	content:":";
+	margin-left:15px;
+}
+.itinerary-sec > ul li span {
+	width:362px;
+	float:left;
+	overflow:hidden;
+	color:#747474;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.services-plus > ul li{
+	padding:10px 0;
+	border-bottom:1px dotted #6c6c6c;
+	list-style-type:none;
+	}
+.services-plus h5 {
+	margin-bottom:10px;
+	color:#555555;
+	font: 18px 'HelveticaWorldRegular';
+}
+.services-plus span {
+	font:14px Arial, Helvetica, sans-serif;
+	color:#555555;
+}
+.services-plus span a {
+	font:14px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#e57701;
+}
+.services-plus span a:hover {
+	color:#555555;
+}
+.same-thing {
+	border-bottom:1px solid #eeeeee;
+	border-top:1px solid #eeeeee;
+	overflow: hidden;
+	padding: 20px 0;
+	margin-bottom:20px;
+}
+.same-thing span {
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#555555;
+	padding:10px 0px;
+	display:block;
+}
+.related-words {
+	margin-left:0px;
+}
+.related-words li {
+	float:left;
+	margin-right:20px;
+	list-style-type:none;
+}
+.related-words li a {
+	border: 1px solid #B7CBB0;
+	border-radius: 20px 20px 20px 20px;
+	color: #6AA157;
+	display: block;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	margin-bottom: 10px;
+	padding:3px 10px;
+	text-decoration: none;
+}
+.related-words li a:hover {
+	border:1px solid #6AA157;
+}
+#trekking-detail-inner .package-listing {
+	width:980px;
+}
+#trekking-detail-inner .packages {
+	overflow:hidden;
+}
+#trekking-detail-inner .package-listing > li {
+	margin-right:42px;
+	margin-bottom:30px;
+}
+.fancybox-wrap .fancybox-skin {
+	background:url("/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/paper-wrap-form.png") no-repeat scroll right top transparent;
+	border-radius: 0 0 0 0;
+	color: #444444;
+	position: relative;
+	text-shadow: none;
+	padding:17px 0 0 !important;
+}
+.ie7 .fancybox-wrap .fancybox-skin {
+	background:url("/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/paper-wrap-form.png") no-repeat scroll left top transparent;
+	padding:17px 0 0 !important;
+	width:717px;
+}
+.fancybox-wrap {
+	height: auto;
+	left: 307px;
+	opacity: 1;
+	overflow: visible;
+	position: absolute;
+	top: 60px;
+	width: 726px;
+}
+.fancybox-wrap.fancybox-desktop.fancybox-type-inline.fancybox-opened {
+	/*overflow: hidden !important;*/
+	width: 725px !important;
+}
+.fancybox-inner {
+	width: 727px !important;
+	
+}
+.fancybox-outer {
+	background: none repeat scroll 0 0 #FFFFFF;
+    margin-top: 20px !important;
+    padding-bottom: 30px !important;
+    padding-left: 20px !important;
+}
+#inline1 h4 {
+	color:#e57701;
+	font: 18px 'HelveticaWorldRegular';
+	margin-bottom:10px;
+}
+span.gform_description{
+	color:#6c6c6c;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	padding-right:30px;
+}
+.gform_body {
+	margin:15px 0;
+	background: none repeat scroll 0 0 #E6E6E6;
+	padding:0 10px 10px 10px;
+	width:620px;
+	overflow:hidden;
+}
+.bottom-space{
+	width:304px;
+}
+.bottom-space .ginput_container{
+	width:299px;
+	}
+.medium.gfield_select {
+	/*float: left;
+	width:288px !important;
+	line-height:55px;
+	-webkit-appearance:none;*/
+		height:41px;
+		display: inline-block;
+        padding: 4px 3px 3px 5px;
+        outline:none; /* remove focus ring from Webkit */
+        line-height: 1.2;
+        background: #f8f8f8;
+        width:291px;
+        -webkit-appearance:none; /* remove the strong OSX influence from Webkit */
+        padding:9px 10px 11px 9px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+}
+ @media screen and (-webkit-min-device-pixel-ratio:0) { 
+        .bottom-space .ginput_container select {
+            padding-right:30px
+		}
+ }
+    /* Select arrow styling */
+	.gfield.bottom-space{
+		  position: relative;
+    	display: inline-block;
+		}
+  .gfield.bottom-space .gfield_label {
+    background: url("/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/custom-select-icon.png") no-repeat scroll center center #D8D8D8;
+    border-radius: 0 6px 6px 0;
+    content: "";
+    display: block;
+    height: 39px;
+    line-height: 35px;
+    margin-top: 11px;
+    overflow: hidden;
+    padding: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 4px;
+    text-indent: 100%;
+    top: 0;
+    white-space: nowrap;
+    width: 41px;
+    z-index: 2;
+	}
+
+	
+.ie9 .bottom-space .gfield_label, .ie8 .bottom-space .gfield_label, .ie7 .bottom-space .gfield_label{
+	display:none;
+	}
+	.no-pointer-events .ginput_container:after {
+        content: none;
+    }
+
+.gfield_label {
+	padding: 20px 0 0;
+}
+.gfield_radio {
+	float: left;
+	overflow: hidden;
+	padding: 20px 0 0;
+}
+.radio-btn .gfield_radio{
+	margin-left:16px;
+	}
+.ui-datepicker-trigger {
+	float: left;
+	padding: 18px 4px 0 0;
+}
+.gfield {
+	list-style-type: none;
+	position: relative;
+	float:left;
+}
+.gform_fields.top_label.description_below {
+	margin-left: 0;
+}
+.gfield_label {
+	display: none;
+}
+.gfield.radio-btn {
+    color: #6C6C6C;
+    font: 14px Arial;
+    margin-left: 16px;
+}
+.gfield.radio-btn .ginput_container ul li input[type="radio"]{
+	margin-top:3px;
+	float:left;
+	}
+li.personal-detail-title h5, .full-width-title h5{
+	margin-bottom:20px;
+	}
+.large {
+	margin:10px;
+	padding:10px;
+	float:left;
+	width:266px;
+}
+.medium {
+	background-color:#f4f4f4;
+	border:1px solid #fff;
+	border-radius:4px;
+	color:#6c6c6c;
+	font: 14px Arial, Helvetica, sans-serif;
+	width:282px;
+	margin:10px;
+	padding:10px;
+}
+.small {
+	width: 217px;
+	margin:10px;
+	padding:10px;
+}
+.datepicker {
+	float: left;
+	width: 217px;
+	margin:10px;
+	padding:10px;
+}
+.large, .small, textarea{
+	background-color:#f4f4f4;
+	border:1px solid #fff;
+	border-radius:4px;
+	color:#6c6c6c;
+	font: 14px Arial, Helvetica, sans-serif;
+}
+
+#input_3_3, #input_4_3 {
+	width: 266px;
+}
+#inline1 .gform_button, .btn-submit,
+#inline2 .gform_button,
+#inline3 .gform_button,
+#inline4 .gform_button{
+	background:#e57701;
+	border-radius:3px;
+	padding:6px 15px;
+	border:1px solid #c86802;
+	color:#fff;
+	font: 14px 'HelveticaWorldBold';
+}
+.btn-submit:hover {
+	background:#c86802;
+	border:1px solid #e57701;
+}
+.gfield_radio label {
+	display:none;
+}
+.gfield_radio label {
+	display: block;
+	float: left;
+	margin: 0 9px;
+}
+.gfield_radio li {
+	list-style-type:none;
+	float:left;
+}
+#inline2 .btn-submit {
+	margin-left:20px;
+}
+#inline3 .gform_description p {
+	font: 14px 'HelveticaWorldBold';
+	color:#e57701;
+}
+#inline1, #inline1 textarea, textarea ,
+#inline2 textarea, #inline3 textarea,
+#inline4 textarea{
+	width:573px ;
+	min-height:200px;
+	margin:10px;
+	padding:10px;
+}
+.radio-btn label{
+	display:block;
+	float:left;
+	}
+.radio-btn .ginput_container label{
+	margin-left:5px;
+}
+.quick-message-box .ginput_container,
+.quick-message-box .ginput_container input{
+	margin: 0 0 10px;
+}
+.validation_error{
+	display:none;
+}
+.ginput_container{
+	position:relative;
+	float:left;
+}
+.instruction.validation_message,
+.gfield_description.validation_message{
+	color: #FF0000;
+    font-size: 12px;
+	padding-left: 10px;
+}
+ .quick-message-box .gfield_description.validation_message{
+	color: #FF0000;
+    font-size: 12px;
+    position: relative;
+    top: -16px;
+	float:left;
+}
+
+.quick-message-box .gform_body{
+	margin-bottom:0;
+	width:100%;
+	padding: 0;
+	background:none;
+}
+.quick-message-box form input, 
+.quick-message-box form textarea {
+	width:196px;
+}
+/*.gfield_html.full-width-title{
+	margin-bottom: 4px;
+    margin-top: 13px;
+    padding-left: 11px;
+    width: 96%;
+	}*/
+.gfield_html.full-width-title{
+	background: none repeat scroll 0 0 WHITE;
+    margin-left: -10px;
+    padding-bottom: 4px;
+    padding-top: 40px;
+    width: 105%;
+}
+.personal-detail-title{
+	background: none repeat scroll 0 0 WHITE;
+	width: 105%;
+	margin-left: -10px;
+	}
+li.top-space .large, li.top-space .medium{
+	margin-top:20px;
+	}
+
+li.bottom-space .medium{
+	margin-bottom:20px;
+	}
+#field_2_11.bottom-space .medium{
+	margin-bottom:10px;
+	}
+input.medium:focus, input.large:focus, input.small:focus, textarea.textarea:focus {
+    outline-width: 0;
+	outline: none;
+    border-color: #fff;
+    box-shadow: 0 0 3px #BF8356;
+}
+#contact input.medium:focus, #contact input.large:focus, #contact input.small:focus, #contact textarea.textarea:focus {
+    outline-width: 0;
+	outline: none;
+    border-color: #e9f1e6;
+    box-shadow: 0 0 3px #e9f1e6;
+}
+/*=Inner-About-Page
+---------------------------------------*/	
+#about .top-header {
+	background: url(/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/nepal-trek-header-bg.jpg) no-repeat top center;
+	background-size:cover;
+}
+#about .page-head .caption {
+	font-size: 30px;
+	line-height: 37px;
+	margin-bottom: 10px;
+}
+#about .main-content .caption {
+	padding-bottom:20px;
+}
+.about-info {
+	float: left;
+	padding-left: 20px;
+	width: 525px;
+}
+.about-info p {
+	color: #6C6C6C;
+	font: 12px/20px Arial, Helvetica, sans-serif;
+}
+.about-info blockquote {
+	color:#6c6c6c;
+	font:italic 12px Arial, Helvetica, sans-serif;
+	border-left: 2px solid #b4b4b4;
+	margin: 15px 30px 0 0px;
+	padding-left: 20px;
+}
+.page-head {
+	border-bottom:1px solid #d0d0d0;
+	padding:60px 0px 40px;
+	margin-bottom:40px;
+}
+.main-content {
+	margin-bottom: 50px;
+	background:url(/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/timrline-bg.png) no-repeat right 66px;
+	width:535px;
+	float:left;
+	padding-right:100px;
+}
+.about-objective p, .about-team p, .our-responsibility p, .walking-hours p {
+	color: #6C6C6C;
+	font: 12px/20px Arial, Helvetica, sans-serif;
+	margin-bottom: 30px;
+}
+.objective-list {
+	margin-left:0px;
+}
+.objective-list li {
+	color: #6c6c6c;
+	display: block;
+	font: italic 12px/20px Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	padding-bottom: 25px;
+}
+.objective-list li span {
+	margin-right:25px;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	padding: 8px 10px;
+	color:#fff;
+	background:#6aa157;
+	float:left;
+}
+.about-highlight {
+	float: left;
+	margin-left: 0;
+	width: 300px;
+}
+.about-highlight li {
+	float:right;
+	list-style-type:none;
+}
+.about-highlight li .about-text {
+	background: url("/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/text-bg.png") no-repeat scroll top center transparent;
+	font:normal 12px/16px Arial, Helvetica, sans-serif;
+	padding: 3px 11px 20px 40px;
+	color:#555555;
+	width: 206px;
+}
+.about-highlight h5 {
+	text-transform:uppercase;
+	padding-left: 40px;
+	margin-bottom:15px;
+	font:bold 14px Arial, Helvetica, sans-serif;
+}
+.about-himalaya {
+	margin-bottom: 97px;
+	position: relative;
+}
+.about-himalaya img {
+	left: -135px;
+	position: absolute;
+	top: 53px;
+}
+.about-mountain {
+	margin-bottom: 140px;
+	position: relative;
+}
+.about-mountain img {
+	left: -135px;
+	position: absolute;
+	top: 73px;
+}
+.about-us {
+	margin-bottom: 141px;
+	position: relative;
+}
+.about-us img {
+	left: -135px;
+	position: absolute;
+	top: 60px;
+}
+.about-clients {
+	position:relative;
+}
+.about-clients img {
+	left: -135px;
+	position: absolute;
+	top: 53px;
+}
+/*=Inner-Contact-Page
+---------------------------------------*/
+#contact .top-header {
+	background-color: rgba(0, 0, 0, 0.56);
+	background-image: none;
+}
+#contact .gform_heading h3.caption{
+	margin-bottom:11px;
+	}
+#contact .gform_heading span.gform_description{
+	font:normal 14px/18px Arial, Helvetica, sans-serif;
+	color:#6c6c6c;
+	}
+.map-holder {
+	margin-bottom:30px;
+	-webkit-box-shadow: 0 -6px 20px rgba(50, 50, 50, 0.41);
+	-moz-box-shadow:    0 -6px 20px rgba(50, 50, 50, 0.41);
+	box-shadow:         0 -6px 20px rgba(50, 50, 50, 0.41);
+	margin-top:-222px;
+	float:left;
+	width:100%;
+}
+.map-holder iframe {
+	display:block;
+}
+#contact #header {
+	position:relative;
+}
+#contact .gform_body {
+	background:none;
+	margin: 15px 0;
+	overflow: hidden;
+	padding: 0px;
+	width: 620px;
+}
+#contact .gform_fields.top_label.description_below {
+	margin-left: -10px;
+}
+.contact-form {
+	float:left;
+}
+.teaser-contact {
+	float: left;
+	padding-left:35px;
+}
+.contact-detail address {
+	font-style:normal;
+	color:#6c6c6c;
+	font:12px/18px Arial, Helvetica, sans-serif;
+}
+.contact-detail {
+	margin-bottom:30px;
+}
+.tel-no {
+	padding:0px;
+	color:#6c6c6c;
+	font:12px Arial, Helvetica, sans-serif;
+	margin-top:0px;
+	
+}
+.tel-no .sprite {
+	margin-right:10px;
+	background-position:-6px -27px;
+	width: 12px;
+	height: 16px;
+}
+.email-add{
+	margin-top:7px;
+	}
+.email-add .sprite {
+	background-position: -29px -26px;
+	height: 15px;
+	margin-right: 10px;
+	margin-top: 0;
+	width: 16px;
+}
+.email-add a {
+	padding:5px 0px;
+	color:#d78a32;
+	text-decoration:none;
+	font:12px Arial, Helvetica, sans-serif;
+}
+.email-add a:hover {
+	color:#EEBE88;
+}
+.social-media h5 {
+	margin-bottom:8px;
+	display:block;
+	font: 18px 'HelveticaWorldRegular';
+	color:#555555;
+}
+.social-media .facebook.sprite {
+	background-position:-59px -29px;
+	width: 35px;
+	height: 34px;
+}
+.social-media .twitter.sprite {
+	background-position:-103px -29px;
+	width: 35px;
+	height: 34px;
+}
+.teaser {
+	width:311px;
+	float:left;
+	position:relative;
+}
+.teaser a {
+	display:block;
+	height:20px;
+	width:20px;
+}
+.teaser a .sprite {
+	background-position:-235px -9px;
+	width: 12px;
+	height: 16px;
+}
+.teaser .everest {
+	position: absolute;
+	right: 136px;
+	top: 56px;
+}
+.teaser .langtang {
+	position: absolute;
+	right: 160px;
+	top: 52px;
+}
+.teaser .jomsom {
+	position: absolute;
+	right: 192px;
+	top: 41px;
+}
+.highlight-sec {
+	margin-top:20px;
+	border-top:1px solid #eeeeee;
+	padding:60px 0px;
+}
+#tiptip_holder #tiptip_content {
+	box-shadow: 0 0 0px #555555;
+	background-color:#dbdbdb;
+	border: 1px solid #c3c3c3;
+	border-radius: 3px 3px 3px 3px;
+	color: #555555;
+	font-size: 12px;
+	padding:10px;
+	text-shadow: none;
+}
+#tiptip_holder #tiptip_arrow #tiptip_arrow_inner {
+	border-top-color: #DBDBDB;
+	margin-left: -6px;
+	margin-top: -8px;
+}
+	
+/*=Inner Testimonials
+---------------------------------------*/
+#testimonials .breadcrumb {
+    padding-top: 45px;
+}
+.testimonial-sec .posts{
+	margin-left:0px;
+	}
+.testimonial-sec .caption {
+    margin-bottom: 20px;
+}
+.posts{
+	margin-bottom:40px;}
+.testimonial-sec .posts li{
+	background:url(/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/post-border.png) no-repeat center bottom;
+	list-style-type:none;}
+.testimonial-sec .posts li:last-child{
+	background:none;}
+.testimonial-wrap {
+    overflow: hidden;
+    padding: 45px 0;
+	
+}
+.client-img-wrap{
+	float:left;
+	width:250px;}
+.client-img-wrap .img-holder{
+	float:left;
+	padding:5px;
+	background:#fff;
+	border:1px solid #d0d0d0;}
+.client-img-wrap h4{
+	font: 18px 'HelveticaWorldBold';
+	line-height:14px;
+	padding-top:10px;
+	float:left;}
+.client-img-wrap span{
+	display:block;
+	font: 14px 'HelveticaWorldRegular';
+	color:#555555;
+	}
+.client-post {
+	-webkit-box-shadow: 0 1px 2px rgba(72, 72, 72, 0.13);
+	-moz-box-shadow:    0 1px 2px rgba(72, 72, 72, 0.13);
+	box-shadow:         0 1px 2px rgba(72, 72, 72, 0.13);
+	position:relative;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 4px 4px 4px 4px;
+    float: left;
+    padding: 30px;
+    width: 620px;
+}
+.client-post blockquote {
+	border:none;    color: #6C6C6C;
+    font: 12px/20px Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+    text-indent: 30px;
+}
+.client-post blockquote img {
+    left: 25px;
+    position: absolute;
+    top: 21px;
+}
+.client-post img {
+    left: -22px;
+    position: absolute;
+    top: 45%;
+}
+.posts .odd-post .client-img-wrap {
+    float: right;
+    width: 202px;
+}
+.posts .odd-post .client-img-wrap .img-holder{
+	float:right;}
+.odd-post .client-post blockquote img {
+    left: 25px;
+    position: absolute;
+    top: 21px;
+}
+.odd-post .client-post img {
+    left: auto;
+    position: absolute;
+    right: -23px;
+    top: 45%;
+}
+/*=Inner Gallery
+---------------------------------------*/
+#gallery .breadcrumb {
+    padding-top: 45px;
+}
+.gallery-sec{
+	margin-bottom:40px;}
+
+.hoverbox
+{
+	cursor: default;
+	list-style: none;
+}
+
+.hoverbox a
+{
+	cursor: default;
+}
+
+.hoverbox a .preview
+{
+	display: none;
+}
+
+.hoverbox a:hover .preview
+{
+	display: block;
+	position: absolute;
+	top: -33px;
+	left: -45px;
+	z-index: 1;
+}
+
+.hoverbox img
+{
+	background: #fff;
+	border-color: #aaa #ccc #ddd #bbb;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	padding: 2px;
+	vertical-align: top;
+	width: 100px;
+	height: 75px;
+}
+
+.hoverbox li
+{
+	background: #eee;
+	border-color: #ddd #bbb #aaa #ccc;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	display: inline;
+	float: left;
+	margin: 3px;
+	padding: 5px;
+	position: relative;
+}
+
+.hoverbox .preview
+{
+	border-color: #000;
+	width: 200px;
+	height: 150px;
+}
+
+.single-package .billboard {
+    background: url("/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/banner-shadow.png") no-repeat scroll center bottom transparent;
+    height: 271px;
+    margin-top: 40px;
+	margin-bottom: 0px;
+}
+.single-package .billboard img{
+	float:left;
+}
+.single-package .article-sec .article-overview h2.caption, .single-package .article-sec .itinerary-sec h2.caption{
+	margin-bottom:20px;
+	}
+
+.package .img-caption {
+    bottom: 118px;
+    top: auto;
+}
+.highlight-img-list .img-caption {
+    bottom: 5px;
+    top: auto;
+}
+.ngg-album {
+    background: url("/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/photo-album-bg.png") no-repeat scroll center center transparent;
+    float: left;
+    margin-bottom: 20px !important;
+    margin-right: 20px;
+    padding: 50px !important;
+	border:none !important;
+}
+.ngg-description p {
+    color: #6C6C6C;
+    display: block;
+    font: 12px/1.5 Arial,Helvetica,sans-serif;
+    padding: 0 0 0 8px;
+    width: 185px;
+}
+.ngg-albumtitle a {
+    color: #EAA960;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+	display: block;
+	float:left;
+	width:100%;
+    text-decoration: none;
+}
+.ngg-albumtitle a:hover{
+	text-decoration:none;
+	color:#D59E60;}
+.ngg-thumbnail {
+    float: left;
+    margin-right: 12px;
+    text-align: center;
+    width: 185px;
+}
+.ngg-thumbnail img {
+    width: 80%;
+}
+.ngg-description {
+    text-align: center !important;
+}	
+	.ui-datepicker-div, .ui-datepicker-inline, #ui-datepicker-div {
+background-color: #FFFFFF;
+border: 4px solid #C1C1C1;
+font-family: "lucida sans","lucida grande",lucida,sans-serif;
+font-size: 1em;
+line-height: 1.3;
+list-style: none outside none;
+margin: 0;
+outline: 0 none;
+padding: 2.5em 0.5em 0.5em;
+position: relative;
+text-decoration: none;
+width: 15.5em;
+}
+.ui-datepicker-div, #ui-datepicker-div {
+display: none;
+z-index: 9999;
+}
+.ui-datepicker-inline {
+display: block;
+float: left;
+}
+.ui-datepicker-control {
+display: none;
+}
+.ui-datepicker-current {
+display: none;
+}
+.ui-datepicker-next, .ui-datepicker-prev {
+background-color: #EEEEEE;
+left: 0.5em;
+position: absolute;
+top: 0.5em;
+}
+.ui-datepicker-next {
+left: 14.6em;
+}
+.ui-datepicker-next a, .ui-datepicker-prev a {
+background-image: url("/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/datepicker_arrow_left.gif");
+background-position: 50% 50%;
+background-repeat: no-repeat;
+border: 1px solid #D3D3D3;
+cursor: pointer;
+display: block;
+font-size: 1em;
+height: 1.4em;
+text-indent: -999999px;
+width: 1.3em;
+}
+.ui-datepicker-next a {
+background-image: url("/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/datepicker_arrow_right.gif");
+background-position: 50% 50%;
+background-repeat: no-repeat;
+}
+.ui-datepicker-header select {
+background-color: #E6E6E6;
+border: 1px solid #D3D3D3;
+color: #555555;
+font-size: 1em;
+line-height: 1.4em;
+margin: 0 !important;
+position: absolute;
+top: 0.5em;
+}
+.ui-datepicker-header select.ui-datepicker-new-month {
+left: 2.2em;
+width: 7em;
+}
+.ui-datepicker-header select.ui-datepicker-new-year {
+left: 9.4em;
+width: 5em;
+}
+table.ui-datepicker {
+text-align: right;
+width: 15.5em;
+}
+table.ui-datepicker td a {
+background-color: #E6E6E6;
+border: 1px solid #FFFFFF;
+color: #555555;
+cursor: pointer;
+display: block;
+padding: 0.1em;
+text-align: center;
+}
+table.ui-datepicker .ui-datepicker-title-row td {
+color: #222222;
+font-size: 0.9em;
+padding: 0.2em 0;
+text-align: center;
+text-transform: uppercase;
+}
+table.ui-datepicker .ui-datepicker-title-row td a {
+color: #222222;
+padding: 0.3em 0;
+}
+.ui-datepicker-cover {
+display: block;
+height: 200px;
+left: -4px;
+position: absolute;
+top: -4px;
+width: 193px;
+z-index: -1;
+}
+img.ui-datepicker-trigger {
+cursor: pointer;
+display: inline-block;
+vertical-align: top;
+}
+.gform_wrapper input.datepicker.datepicker_with_icon {
+display: inline-block;
+}
+  
+  /* Gallery Page layout */
+  .ngg-album{
+	  position:relative;
+	  }
+  .ngg-albumtitle {
+    bottom: 50px;
+    font-size: 1.4em;
+    font-weight: bold;
+    left: 23%;
+    margin: 0 0 10px;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+	z-index:2;
+}	
+
+	.ngg-description {
+    bottom: -16px;
+    position: relative;
+}
+
+/* 404 page layout */
+.error-box{
+overflow:hidden;
+background:#fff;
+padding:90px;}
+.error-box .img-holder{
+float:left;
+}
+.error-box .img-holder:hover{
+background:#ccc;}
+.error-box .img-holder img {
+display: block;
+margin-bottom: 0;
+}
+
+.error-info {
+display: block;
+float: left;
+margin-left: 63px;
+overflow: hidden;
+width: 268px;
+margin-top:46px;
+}
+.error-info h1 {
+color: #e9660c;
+font: 60px Arial,Helvetica,sans-serif;
+padding-top: 10px;
+}
+.error-info p{
+color:#585858;
+font:18px Arial, Helvetica, sans-serif;}
+.error-info a{
+color:#e9660c;
+font:20px Arial, Helvetica, sans-serif;}
+.error-info a:hover{
+color:#FF6601;
+}
+.not-found > p {
+color: red;
+font-size: 12px;
+}
+#search .caption a{
+	color:#E57701;
+	text-decoration:none;
+}
+#search .caption a:hover{
+	text-decoration:underline;
+}
+#search .breadcrumb{
+	padding-top:20px;}
+	
+	
+	
+/* faqs page layout */
+#faqs h2.caption{
+	font-size:16px;
+	}
+.contact-detail h2.caption{
+	font-size:21px;
+	}
+/* social-media layout */
+.social-sprite{
+	background:url(/web/20190122013912im_/http://ultimatetrekkingnepal.com/wp-content/themes/ultimate-himalayan/images/social-media-icons.png) no-repeat 0 0;
+	display:block;
+	float:right;
+        font-size:0;
+	width: 28px; height: 24px;
+	float:right;
+	}
+.twitter{
+	background-position: 0 -4px;
+}
+.twitter:hover{
+	background-position: 0 -38px;
+}
+.facebook{
+	background-position:-44px -4px;
+	margin-left:10px;
+	}
+.facebook:hover{
+	background-position:-44px -37px;
+	}
+/*=Media Queries
+---------------------------------------*/
+@media all and (orientation:portrait) {
+}
+@media all and (orientation:landscape) {
+}
+@media screen and (max-device-width: 480px) {
+/* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+}
+ @media print {
+* {
+	background: transparent !important;
+	color: #444 !important;
+	text-shadow: none !important;
+}
+a, a:visited {
+	color: #444 !important;
+	text-decoration: underline;
+}
+a:after {
+	content: " (" attr(href) ")";
+}
+abbr:after {
+	content: " (" attr(title) ")";
+}
+.ir a:after {
+	content: "";
+}
+pre, blockquote {
+	border: 1px solid #999;
+	page-break-inside: avoid;
+}
+thead {
+	display: table-header-group;
+}
+tr, img {
+	page-break-inside: avoid;
+}
+ @page {
+margin: 0.5cm;
+}
+p, h2, h3 {
+	orphans: 3;
+	widows: 3;
+}
+h2, h3 {
+	page-break-after: avoid;
+}
+map-cover img {
+display: block;
+}
+
+}
+
+
+.flexslider .slides img {
+width: 940px;
+height: 363px;
+}
+
+#field_3_3 {
+display: none;
+visibility: hidden;
+}
+#input_3_4 {
+width: 573px;
+}
+/*
+     FILE ARCHIVED ON 01:39:12 Jan 22, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:40:28 Oct 06, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.782
+  exclusion.robots: 0.053
+  exclusion.robots.policy: 0.037
+  esindex: 0.015
+  cdx.remote: 153.969
+  LoadShardBlock: 414.731 (3)
+  PetaboxLoader3.datanode: 356.398 (5)
+  PetaboxLoader3.resolve: 1239.045 (3)
+  load_resource: 1352.736 (2)
+*/

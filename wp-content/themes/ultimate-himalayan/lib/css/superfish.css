@@ -1,0 +1,179 @@
+/*** ESSENTIAL STYLES ***/
+.main-nav, .main-nav * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.main-nav {
+	line-height:	1.0;
+	position:		relative;
+}
+.main-nav ul {
+	position:		absolute;
+	top:			-999em;
+	width:			200px; /* left offset of submenus need to match (see below) */
+	z-index:		10;
+}
+.main-nav ul li {
+	width:			100%;
+}
+.main-nav li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.main-nav li {
+	float:			left;
+	position:		relative;
+}
+.main-nav a {
+	display:		block;
+}
+.main-nav li:hover ul, .main-nav li.sfHover ul {
+	left:			0;
+	top:			48px; /* match top ul list item height */
+	z-index:		99;
+}
+ul.main-nav li:hover li ul, ul.main-nav li.sfHover li ul {
+	top:			-999em;
+}
+ul.main-nav li li:hover ul, ul.main-nav li li.sfHover ul {
+	left:			208px; /* match ul width */
+	top:			0;
+}
+ul.main-nav li li:hover li ul, ul.main-nav li li.sfHover li ul {
+	top:			-999em;
+}
+ul.main-nav li li li:hover ul, ul.main-nav li li li.sfHover ul {
+	left:			208px; /* match ul width */
+	top:			0;
+}
+/*** Skin ***/
+.main-nav {
+	background-color:#999;
+	height:48px;
+	
+	/*enable this if you are using horizental menu*/
+	/*float:left; enable this if you are using vertical menu*/
+	
+}
+.main-nav li {
+	float:left;
+	height:48px;
+}
+.main-nav li a {
+	color:#fff;
+	display:table-cell;
+	text-decoration:none;
+	vertical-align:middle;
+	height:55px;
+	padding:0 18px;
+	text-align:center;
+	font-weight:bold;
+}
+.main-nav li a:hover, .main-nav li.current-menu-item a, .main-nav li.current-menu-ancestor a, .main-nav li.current-menu-parent a,
+.main-nav li.sfHover li li a:hover {
+	background-color:#fff;
+	color:#bf782b;
+}
+
+
+.main-nav li a span {
+	display:block;
+	}
+
+/*Second Level*/
+
+#primary-nav .main-nav > li > ul{
+	box-shadow:0 3px 5px #928C8C;
+}
+#primary-nav .main-nav > li > ul> li > a:hover{
+	
+}
+
+#primary-nav .main-nav ul ul{
+	background:#ccc;
+	z-index: -1;
+}
+.main-nav li li{
+	padding:0px;
+	background-color: #fefefe;
+	background-image:none;
+	height:auto;
+	position: relative;
+    z-index: 11;
+}
+.main-nav li li:last-child{
+	border:none;
+	}
+#primary-nav .main-nav li li a{
+	margin:0;
+	width:192px;
+}
+#primary-nav .main-nav li li li{
+	background:#ccc;
+	}
+#primary-nav .main-nav li li li a{
+	padding:11px 8px 11px 10px;
+	height:auto;
+	width:auto;
+}
+
+
+.main-nav li li a,
+.main-nav li.sfHover li a,
+.main-nav li.current-menu-item li a,
+.main-nav li.current-menu-parent li a,
+.main-nav li.current-menu-ancestor li a,
+.main-nav li li.current-menu-item li a,
+.main-nav li li.current-menu-parent li a,
+/*3rd level*/
+.main-nav li.sfHover li li a:hover,
+.main-nav li.sfHover li li.current-menu-item a,
+.main-nav li li.current-menu-parent li.current-menu-item a
+ {
+	/*background-color:#fefefe;*/
+	color:#602e0f;
+	zoom:1;
+	height:auto;
+	line-height:18px;
+	padding:5px 10px;
+	font-weight:normal;
+	font-size:12px;
+	float:none;
+	display:block;
+	text-align:left;
+}
+
+.main-nav li li a:hover,
+.main-nav li li:hover > a,
+.main-nav li.sfHover li a:hover,
+.main-nav li.current-menu-item li a:hover,
+.main-nav li.current-menu-parent li a:hover,
+.main-nav li.current-menu-ancestor li a:hover,
+.main-nav li li.current-menu-item a,
+.main-nav li li.current-menu-parent a,
+.main-nav li li li.current-menu-item a,
+/*3rd level*/
+.main-nav li.sfHover li li a {
+	background-color:#ccc;
+	color:#333;
+}
+/*
+     FILE ARCHIVED ON 07:26:38 Jan 09, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:50:16 Oct 06, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.684
+  exclusion.robots: 0.046
+  exclusion.robots.policy: 0.034
+  esindex: 0.013
+  cdx.remote: 74.696
+  LoadShardBlock: 705.261 (3)
+  PetaboxLoader3.datanode: 492.968 (5)
+  PetaboxLoader3.resolve: 1417.036 (3)
+  load_resource: 1581.258 (2)
+*/
