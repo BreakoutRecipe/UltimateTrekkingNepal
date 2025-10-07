@@ -116,23 +116,3 @@ jQuery(function(){
 
 
 }
-/*
-     FILE ARCHIVED ON 13:21:05 Jan 12, 2019 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:48:39 Oct 06, 2025.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 0.603
-  exclusion.robots: 0.043
-  exclusion.robots.policy: 0.03
-  esindex: 0.01
-  cdx.remote: 209.407
-  LoadShardBlock: 828.091 (3)
-  PetaboxLoader3.datanode: 813.814 (5)
-  PetaboxLoader3.resolve: 782.392 (3)
-  load_resource: 1300.339 (2)
-*/

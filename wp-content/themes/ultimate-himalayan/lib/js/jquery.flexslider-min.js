@@ -50,23 +50,3 @@ if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; re
  i.start&&i.start(a)):void 0==a.data("flexslider")&&new d.flexslider(this,i)});var k=d(this).data("flexslider");switch(i){case "play":k.play();break;case "pause":k.pause();break;case "next":k.flexAnimate(k.getTarget("next"),!0);break;case "prev":case "previous":k.flexAnimate(k.getTarget("prev"),!0);break;default:"number"===typeof i&&k.flexAnimate(i,!0)}}})(jQuery);
 
 }
-/*
-     FILE ARCHIVED ON 02:05:11 Jan 12, 2019 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:48:29 Oct 06, 2025.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 1.298
-  exclusion.robots: 0.039
-  exclusion.robots.policy: 0.029
-  esindex: 0.013
-  cdx.remote: 71.278
-  LoadShardBlock: 375.291 (3)
-  PetaboxLoader3.datanode: 532.782 (5)
-  load_resource: 687.045 (2)
-  PetaboxLoader3.resolve: 299.746 (2)
-*/

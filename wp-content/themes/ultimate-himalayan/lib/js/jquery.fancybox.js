@@ -1995,23 +1995,3 @@ if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; re
 }(window, document, jQuery));
 
 }
-/*
-     FILE ARCHIVED ON 04:03:09 Jan 20, 2019 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:48:30 Oct 06, 2025.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 0.567
-  exclusion.robots: 0.039
-  exclusion.robots.policy: 0.028
-  esindex: 0.011
-  cdx.remote: 217.66
-  LoadShardBlock: 518.444 (3)
-  PetaboxLoader3.datanode: 513.93 (5)
-  PetaboxLoader3.resolve: 506.134 (3)
-  load_resource: 585.454 (2)
-*/
